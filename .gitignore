@@ -1,0 +1,31 @@
+# Node.js (Frontend)
+node_modules/
+.env
+dist/
+
+# Python (Backend)
+venv/
+__pycache__/
+instance/
+.env
+# Vite build output
+dist/
+
+# Tailwind CSS build files
+*.css.map
+
+# Node.js dependencies
+node_modules/
+
+# Environment files (for API keys, secrets, etc.)
+.env.local
+.env.development.local
+.env.production.local
+
+# Vite cache (optional but improves Git performance)
+.vite/
+
+# Editor-specific files
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+
+*{
+  font-family: monospace, sans-serif;
+}
+
+
+.bg-primary{
+  background-color: hsla(298, 78%, 61%, 0.685);
+}
+
+.text-primary{
+  color: #e40000;
+}
+
+
+
+
+
+.navList li{
+  list-style: none;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #000;
+    display: flex;
+    border-radius: 5px;
+}
+.navList li:hover{
+  background-color: #dddddd;
+  
+}
+
+.navList li a{
+display: flex;
+align-items: center
+}
